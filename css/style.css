@@ -738,12 +738,11 @@ footer {
     display: block;
 }
 
-hr {
+.hr {
     width: 90%;
-    border: 0;
     border-bottom: 0.5px solid #13547a;
     opacity: 0.2;
-    margin: 20px auto;
+    margin: 40px auto;
 }
 
 .copyright {
