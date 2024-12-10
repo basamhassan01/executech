@@ -5,7 +5,6 @@
 html, body {
     margin: 0;
     box-sizing: border-box;
-    overflow-x: hidden;
     scroll-behavior: smooth;
     background-color: var(--white);
 }
@@ -135,15 +134,17 @@ span {
 /*---------- Navbar ----------*/
 
 .nav {
+    position: sticky;
     background-color: var(--white);
     background-size: cover;
     background-position: center;
+    top: 0;
     opacity: 5;
     padding: 0 2rem;
-    height: 0rem;
-    min-height: 8vh;
+    height: 8vh;
     overflow: hidden;
     transition: height 1s ease-in-out;
+    z-index: 1000;
 }
 
 .nav .nav-brand .logo {
