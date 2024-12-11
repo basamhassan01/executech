@@ -140,16 +140,22 @@ span {
     background-position: center;
     top: 0;
     opacity: 5;
-    padding: 0 2rem;
+    padding: 0 32px;
     height: 8vh;
     overflow: hidden;
     transition: height 1s ease-in-out;
     z-index: 1000;
 }
 
+.nav .nav-brand a {
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
 .nav .nav-brand .logo {
     width: auto;
-    height: 60px;
+    height: 45px;
     margin: 0;
     padding: 0;
     display: block;
@@ -830,6 +836,7 @@ footer .footer-row .footer-col .underline {
     }
 
     .nav {
+        padding: 0 5%;
         min-height: 7vh;
         top: 0;
         align-items: center;
@@ -838,6 +845,20 @@ footer .footer-row .footer-col .underline {
     .nav .nav-menu, .nav .nav-items {
         flex-direction: column;
         align-items: normal;
+    }
+
+    .nav .nav-brand a {
+        height: 9vh;
+        display: flex;
+        align-items: center;
+    }
+    
+    .nav .nav-brand .logo {
+        width: auto;
+        height: 45px;
+        margin: 0;
+        padding: 0;
+        display: block;
     }
 
     .nav .toggle-collapse {
